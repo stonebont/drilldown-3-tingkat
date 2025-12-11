@@ -1,9 +1,9 @@
 <?php
 // --- 1. KONEKSI DATABASE ---
 $host = "localhost";
-$user = "stonebon_uhighcharts"; // Sesuaikan user db
-$pass = "Bismillah123";     // Sesuaikan password db
-$db   = "stonebon_highcharts"; // Sesuaikan nama db
+$user = "your_username"; // Sesuaikan user db
+$pass = "your_password";     // Sesuaikan password db
+$db   = "your_database"; // Sesuaikan nama db
 
 $conn = new mysqli($host, $user, $pass, $db);
 if ($conn->connect_error) {
